@@ -16,4 +16,4 @@ StudyDash is a responsive and modern web application designed to enhance your le
    cd studydash
 
 ## Figma Design
--- **Link**: https://www.figma.com/design/XARz6MQmovXkl60ILdb167/StudyDash?node-id=0-1&t=oRe1vN1xpHQRp9Yv-1
+- **Link**: https://www.figma.com/design/XARz6MQmovXkl60ILdb167/StudyDash?node-id=0-1&t=oRe1vN1xpHQRp9Yv-1
