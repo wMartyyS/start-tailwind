@@ -1,31 +1,13 @@
-@import "../../node_modules/tailwindcss";
-
-@layer utilities {
-    .navbar-font-size {
-        font-size: var(--navbar-font-size);
-    }
-
-    .main-family {
-        font-family: var(--font-family);
-    }
-
-    .bg-img {
-        background-image: url('../images/background.svg');
-    }
-}
+@import "tailwindcss";
 
 @theme {
     /* Colors Pallete */
-    --color-primary: #F5C518;
-    --color-secondary: #1C1C1C;
-    --color-tertiary: #F6F7FB;
-    --color-quaternary: #292A2D;
-    --color-quinary: #343539;
-    --color-button: #0B5ED7;
+    --color-hero: #74C69D;
+    --color-darker: #212529;
 
     /* Text size family */
-    --navbar-font-size: 1.25rem;
 
     /* Font family */
-    --font-family: 'Poppins', sans-serif;
+    --font-worksans: WorkSans, sans-serif;
+    --font-crimson: CrimsonPro, serif;
 }
