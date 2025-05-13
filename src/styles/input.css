@@ -1,9 +1,13 @@
 @import "tailwindcss";
 
+.btn {
+    @apply bg-secondary text-white text-xl py-2 px-6 font-worksans rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer;
+}
+
 @theme {
     /* Colors Pallete */
     --color-hero: #74C69D;
-    --color-darker: #212529;
+    --color-secondary: #212529;
 
     /* Text size family */
 
