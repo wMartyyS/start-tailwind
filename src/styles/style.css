@@ -26,6 +26,8 @@
     --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
     --font-weight-medium: 500;
     --font-weight-bold: 700;
     --tracking-widest: 0.1em;
@@ -625,6 +627,12 @@
   .lg\:py-12 {
     @media (width >= 64rem) {
       padding-block: calc(var(--spacing) * 12);
+    }
+  }
+  .lg\:text-5xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
 }
