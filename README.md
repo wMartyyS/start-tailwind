@@ -30,9 +30,7 @@ This project is a responsive website built using **HTML**, **CSS**, and **Tailwi
 └── README.md           # Project documentation
 ```
 ## How to Run
-
-adad
-
+To run the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/wMartyyS/start-website.git
