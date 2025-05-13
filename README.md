@@ -18,14 +18,17 @@ This project is a responsive website built using **HTML**, **CSS**, and **Tailwi
 - **JavaScript**: For interactivity (if applicable).
 
 ## File Structure
-  ├── index.html # Main HTML file
-  ├── src/  │ 
-            ├── images/ # Images used in the project 
-            └── styles/ │ 
-                        ├── style.css # Compiled CSS file │ 
-                        └── input.css # TailwindCSS input file 
-  └── README.md # Project documentation
+```
+├── index.html          # Main HTML file
+├── src/
+│   ├── images/         # Images used in the project
+│
+└── styles/
+    ├── style.css       # Compiled CSS file
+    └── input.css       # TailwindCSS input file
 
+└── README.md           # Project documentation
+```
 ## How to Run
 
 1. Clone the repository:
